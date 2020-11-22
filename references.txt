@@ -1,0 +1,22 @@
+https://medium.com/front-end-weekly/20-data-table-libraries-for-javascript-in-2020-1bf00411b060
+https://www.w3schools.com/nodejs/nodejs_mongodb_find.asp
+https://www.youtube.com/playlist?list=PL-51WBLyFTg1l3K0aTH0uX6PzgaLfzJBK
+https://www.youtube.com/watch?v=tc8DU14qX6I
+https://www.chartjs.org/docs/latest/charts/line.html
+https://docs.mongodb.com/drivers/node/quick-start
+http://mongodb.github.io/node-mongodb-native/3.6/api/Collection.html#findOne
+https://docs.mongodb.com/drivers/node/fundamentals/crud/read-operations/retrieve#find
+https://www.youtube.com/watch?v=M9Fs-CCe0Jo
+https://www.youtube.com/watch?v=DHvZLI7Db8E
+https://www.youtube.com/playlist?list=PLC3y8-rFHvwgWTSrDiwmUsl4ZvipOw9Cz
+https://material-ui.com/components/tables/
+https://stackoverflow.com/questions/12070631/how-to-use-json-file-in-html-code
+https://stackoverflow.com/questions/47219147/using-react-date-range-picker-to-filter-a-react-table/49045554
+https://stackoverflow.com/questions/58412301/how-to-filter-user-data-between-2-date-range-timestamp
+https://stackoverflow.com/questions/47117106/how-to-display-text-on-both-axis-in-react-chart
+
+npx create-react-app sensor-app
+npm i react
+npm i react-table
+npm install --save react-chartjs-2
+npm start

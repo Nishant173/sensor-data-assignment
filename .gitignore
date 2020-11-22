@@ -1,0 +1,5 @@
+env
+frontend-old
+node_modules
+public
+*__pycache__

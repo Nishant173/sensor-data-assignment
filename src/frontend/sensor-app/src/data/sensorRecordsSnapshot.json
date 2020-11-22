@@ -1,0 +1,1101 @@
+[
+    {
+        "_id": "W754UCAFQKXC",
+        "reading": 25.4277,
+        "timestamp": 949885015,
+        "datetime": "2000-02-07 00:56:55",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "IPKR8IF8BCVZ",
+        "reading": 30.6943,
+        "timestamp": 953287353,
+        "datetime": "2000-03-17 10:02:33",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "4EBSQ3H60RHM",
+        "reading": 10.5348,
+        "timestamp": 960974880,
+        "datetime": "2000-06-14 09:28:00",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "435D17ET1QMG",
+        "reading": 25.3717,
+        "timestamp": 961717936,
+        "datetime": "2000-06-22 23:52:16",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "PJ7AYUP6QI8D",
+        "reading": 37.4941,
+        "timestamp": 961750671,
+        "datetime": "2000-06-23 08:57:51",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "VTSASC2OQSJD",
+        "reading": 22.3597,
+        "timestamp": 961842443,
+        "datetime": "2000-06-24 10:27:23",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "CT4FXEGY1OZ2",
+        "reading": 14.8056,
+        "timestamp": 965184813,
+        "datetime": "2000-08-02 02:53:33",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "P82O68G37IAH",
+        "reading": 13.6893,
+        "timestamp": 967671346,
+        "datetime": "2000-08-30 21:35:46",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "D9GLEP5X8NC8",
+        "reading": 39.4002,
+        "timestamp": 970249916,
+        "datetime": "2000-09-29 17:51:56",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "8IPKK3SROT5X",
+        "reading": 36.3784,
+        "timestamp": 976345000,
+        "datetime": "2000-12-09 06:56:40",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "3V124J1JOX1I",
+        "reading": 22.163,
+        "timestamp": 982764274,
+        "datetime": "2001-02-21 14:04:34",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "O270K50S0YPD",
+        "reading": 39.3831,
+        "timestamp": 985138939,
+        "datetime": "2001-03-21 01:42:19",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "ORZHJ12BLJIW",
+        "reading": 29.4502,
+        "timestamp": 995285839,
+        "datetime": "2001-07-16 12:17:19",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "4ODCEHXSKZ0T",
+        "reading": 26.9203,
+        "timestamp": 996293928,
+        "datetime": "2001-07-28 04:18:48",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "IGLE7DNY8HZT",
+        "reading": 24.3351,
+        "timestamp": 996973478,
+        "datetime": "2001-08-05 01:04:38",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "QVA5OJ6J14Q6",
+        "reading": 29.3084,
+        "timestamp": 1009330674,
+        "datetime": "2001-12-26 01:37:54",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "DHF136W52TOH",
+        "reading": 36.97,
+        "timestamp": 1022848386,
+        "datetime": "2002-05-31 12:33:06",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "V2Q52ZFYTD9O",
+        "reading": 10.8472,
+        "timestamp": 1023595664,
+        "datetime": "2002-06-09 04:07:44",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "GI5RAZK2XO15",
+        "reading": 31.0196,
+        "timestamp": 1025186685,
+        "datetime": "2002-06-27 14:04:45",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "4FAMOX5AC6II",
+        "reading": 19.058,
+        "timestamp": 1038196838,
+        "datetime": "2002-11-25 04:00:38",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "FW3ZN1B1SFHF",
+        "reading": 12.4075,
+        "timestamp": 1042774250,
+        "datetime": "2003-01-17 03:30:50",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "4P4QYQMO3A4A",
+        "reading": 10.2294,
+        "timestamp": 1043153833,
+        "datetime": "2003-01-21 12:57:13",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "15WYO1B8NDUV",
+        "reading": 28.8191,
+        "timestamp": 1045897925,
+        "datetime": "2003-02-22 07:12:05",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "H8NAB20TYCAZ",
+        "reading": 39.9044,
+        "timestamp": 1058102114,
+        "datetime": "2003-07-13 13:15:14",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "SVM7VQXJ18AF",
+        "reading": 29.144,
+        "timestamp": 1064177445,
+        "datetime": "2003-09-21 20:50:45",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "1ITAH5ISBQAC",
+        "reading": 27.6125,
+        "timestamp": 1067803853,
+        "datetime": "2003-11-02 20:10:53",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "39LMGQ1HCORS",
+        "reading": 16.5043,
+        "timestamp": 1070368212,
+        "datetime": "2003-12-02 12:30:12",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "X1IM4EE5E3XM",
+        "reading": 28.7531,
+        "timestamp": 1078281078,
+        "datetime": "2004-03-03 02:31:18",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "ELOCAI73RMRX",
+        "reading": 35.4075,
+        "timestamp": 1083978435,
+        "datetime": "2004-05-08 01:07:15",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "PJFBT6DWOEDU",
+        "reading": 23.6985,
+        "timestamp": 1088719146,
+        "datetime": "2004-07-01 21:59:06",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "ZYUQ2N8HQ5RZ",
+        "reading": 27.4944,
+        "timestamp": 1095117595,
+        "datetime": "2004-09-13 23:19:55",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "LV1Q5Q2VV5WZ",
+        "reading": 29.9619,
+        "timestamp": 1100059339,
+        "datetime": "2004-11-10 04:02:19",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "1TBHML5LR97G",
+        "reading": 25.0051,
+        "timestamp": 1105848933,
+        "datetime": "2005-01-16 04:15:33",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "BWOMH6EU1K2K",
+        "reading": 24.0484,
+        "timestamp": 1111561409,
+        "datetime": "2005-03-23 07:03:29",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "EN5PO3ZF49AU",
+        "reading": 36.2477,
+        "timestamp": 1117608493,
+        "datetime": "2005-06-01 06:48:13",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "MOI9YAE6HXK1",
+        "reading": 37.8936,
+        "timestamp": 1128826108,
+        "datetime": "2005-10-09 02:48:28",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "7A093W5LAK6J",
+        "reading": 14.1489,
+        "timestamp": 1129542499,
+        "datetime": "2005-10-17 09:48:19",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "9DIWRQW82SCD",
+        "reading": 38.2105,
+        "timestamp": 1131360635,
+        "datetime": "2005-11-07 10:50:35",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "SDZQYTW57DSK",
+        "reading": 28.381,
+        "timestamp": 1133613400,
+        "datetime": "2005-12-03 12:36:40",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "RUXPCNQNP8MW",
+        "reading": 36.4668,
+        "timestamp": 1133908487,
+        "datetime": "2005-12-06 22:34:47",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "B3CZ0EX5J1BP",
+        "reading": 12.9378,
+        "timestamp": 1137119692,
+        "datetime": "2006-01-13 02:34:52",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "SJ9USJ6JANHP",
+        "reading": 17.6801,
+        "timestamp": 1137482730,
+        "datetime": "2006-01-17 07:25:30",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "WHVI3MA1GD5J",
+        "reading": 36.8055,
+        "timestamp": 1138513550,
+        "datetime": "2006-01-29 05:45:50",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "4YQFAFIK0FED",
+        "reading": 23.6697,
+        "timestamp": 1139490873,
+        "datetime": "2006-02-09 13:14:33",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "T284IDTSS0TU",
+        "reading": 32.8454,
+        "timestamp": 1140763391,
+        "datetime": "2006-02-24 06:43:11",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "BODTHB7PG80S",
+        "reading": 31.928,
+        "timestamp": 1145229893,
+        "datetime": "2006-04-16 23:24:53",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "PCM0SA319HHP",
+        "reading": 23.584,
+        "timestamp": 1159303536,
+        "datetime": "2006-09-26 20:45:36",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "BL80ITPDGUS7",
+        "reading": 38.4218,
+        "timestamp": 1171044914,
+        "datetime": "2007-02-09 18:15:14",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "OPIXP3UALRBG",
+        "reading": 23.6048,
+        "timestamp": 1178856925,
+        "datetime": "2007-05-11 04:15:25",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "LLBRZV212AXA",
+        "reading": 33.5974,
+        "timestamp": 1184318210,
+        "datetime": "2007-07-13 09:16:50",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "KN0HFI2VU6TD",
+        "reading": 11.9937,
+        "timestamp": 1186736835,
+        "datetime": "2007-08-10 09:07:15",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "Q6V6BH167ZFN",
+        "reading": 10.6689,
+        "timestamp": 1189840425,
+        "datetime": "2007-09-15 07:13:45",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "VILN7X0UP17U",
+        "reading": 29.2743,
+        "timestamp": 1191927028,
+        "datetime": "2007-10-09 10:50:28",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "K20U0U994RV3",
+        "reading": 39.4276,
+        "timestamp": 1197018969,
+        "datetime": "2007-12-07 09:16:09",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "7PEAP99T5PZV",
+        "reading": 24.3713,
+        "timestamp": 1198660620,
+        "datetime": "2007-12-26 09:17:00",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "Y78GRNTTF45Q",
+        "reading": 15.8425,
+        "timestamp": 1200424254,
+        "datetime": "2008-01-15 19:10:54",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "9IQEYKLJ3BLD",
+        "reading": 23.5862,
+        "timestamp": 1202971682,
+        "datetime": "2008-02-14 06:48:02",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "KQD4TOLYX7IV",
+        "reading": 21.0788,
+        "timestamp": 1203154278,
+        "datetime": "2008-02-16 09:31:18",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "LKSK55LM1JYB",
+        "reading": 33.9844,
+        "timestamp": 1204145550,
+        "datetime": "2008-02-27 20:52:30",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "KV73SL1BT9EP",
+        "reading": 21.2946,
+        "timestamp": 1212288235,
+        "datetime": "2008-06-01 02:43:55",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "C66CQ6Q3KZFE",
+        "reading": 38.9593,
+        "timestamp": 1218737152,
+        "datetime": "2008-08-14 18:05:52",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "E5430RCEXEDW",
+        "reading": 28.9469,
+        "timestamp": 1222130926,
+        "datetime": "2008-09-23 00:48:46",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "H4H8K2DMSYCW",
+        "reading": 37.2101,
+        "timestamp": 1224919993,
+        "datetime": "2008-10-25 07:33:13",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "J7WVU7K4WQYB",
+        "reading": 10.2214,
+        "timestamp": 1224940271,
+        "datetime": "2008-10-25 13:11:11",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "7OKVKSIX1KLV",
+        "reading": 18.2292,
+        "timestamp": 1226645436,
+        "datetime": "2008-11-14 06:50:36",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "3XBG8LMB1A04",
+        "reading": 31.5142,
+        "timestamp": 1227630655,
+        "datetime": "2008-11-25 16:30:55",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "QL171HM480AJ",
+        "reading": 36.7604,
+        "timestamp": 1235006781,
+        "datetime": "2009-02-19 01:26:21",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "N2TQGFLV0ADF",
+        "reading": 11.9077,
+        "timestamp": 1241935766,
+        "datetime": "2009-05-10 06:09:26",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "5M70WR7V416Z",
+        "reading": 27.678,
+        "timestamp": 1242099230,
+        "datetime": "2009-05-12 03:33:50",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "RJEX0SD4X9FD",
+        "reading": 11.9277,
+        "timestamp": 1245120542,
+        "datetime": "2009-06-16 02:49:02",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "LZTJSG4VU4UG",
+        "reading": 24.6857,
+        "timestamp": 1246298005,
+        "datetime": "2009-06-29 17:53:25",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "V45RWTSIIPEC",
+        "reading": 28.191,
+        "timestamp": 1253373169,
+        "datetime": "2009-09-19 15:12:49",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "P9UJLJLAAG7Y",
+        "reading": 21.5104,
+        "timestamp": 1263815472,
+        "datetime": "2010-01-18 11:51:12",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "YGB4X3J9YNF7",
+        "reading": 32.2136,
+        "timestamp": 1266919874,
+        "datetime": "2010-02-23 10:11:14",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "47TYP1CYVGVI",
+        "reading": 24.0773,
+        "timestamp": 1270936624,
+        "datetime": "2010-04-10 21:57:04",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "D8HHDUZBB8CL",
+        "reading": 37.0789,
+        "timestamp": 1274891932,
+        "datetime": "2010-05-26 16:38:52",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "4N40PURNXF71",
+        "reading": 29.0915,
+        "timestamp": 1276928518,
+        "datetime": "2010-06-19 06:21:58",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "PBNM232L0CRM",
+        "reading": 11.1694,
+        "timestamp": 1280372078,
+        "datetime": "2010-07-29 02:54:38",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "Y2S6HG18MOIC",
+        "reading": 35.7408,
+        "timestamp": 1287456154,
+        "datetime": "2010-10-19 02:42:34",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "2SUN5QEQ928U",
+        "reading": 16.768,
+        "timestamp": 1289676850,
+        "datetime": "2010-11-13 19:34:10",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "B8N0OOPNXM91",
+        "reading": 28.8676,
+        "timestamp": 1298257194,
+        "datetime": "2011-02-21 02:59:54",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "F46MDR3O7AC3",
+        "reading": 30.2189,
+        "timestamp": 1304502871,
+        "datetime": "2011-05-04 09:54:31",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "F677DSAGE8VO",
+        "reading": 29.7706,
+        "timestamp": 1309268432,
+        "datetime": "2011-06-28 13:40:32",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "G149FJAKTKM0",
+        "reading": 36.5601,
+        "timestamp": 1312529909,
+        "datetime": "2011-08-05 07:38:29",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "ISJR9CCYIWHO",
+        "reading": 37.3828,
+        "timestamp": 1312787839,
+        "datetime": "2011-08-08 07:17:19",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "3F7WZ20M7T8R",
+        "reading": 37.73,
+        "timestamp": 1323066432,
+        "datetime": "2011-12-05 06:27:12",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "9XUMPDXPL6EX",
+        "reading": 38.2238,
+        "timestamp": 1328272541,
+        "datetime": "2012-02-03 12:35:41",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "IDIJJPOIIXEQ",
+        "reading": 26.6769,
+        "timestamp": 1331927966,
+        "datetime": "2012-03-16 19:59:26",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "1V2ESJT04601",
+        "reading": 29.45,
+        "timestamp": 1333020712,
+        "datetime": "2012-03-29 11:31:52",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "529HQD3GLX3W",
+        "reading": 20.7197,
+        "timestamp": 1334333272,
+        "datetime": "2012-04-13 16:07:52",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "AP6MGQTMB52B",
+        "reading": 36.6844,
+        "timestamp": 1349905558,
+        "datetime": "2012-10-10 21:45:58",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "QB02OOE03WL0",
+        "reading": 37.1062,
+        "timestamp": 1353637377,
+        "datetime": "2012-11-23 02:22:57",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "WCI25FFHVJGC",
+        "reading": 12.0467,
+        "timestamp": 1356388957,
+        "datetime": "2012-12-24 22:42:37",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "JT0OO62RFBYM",
+        "reading": 21.5139,
+        "timestamp": 1358065280,
+        "datetime": "2013-01-13 08:21:20",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "0567J9XLVNKD",
+        "reading": 11.6145,
+        "timestamp": 1360325443,
+        "datetime": "2013-02-08 12:10:43",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "DPSXNZK5V6QS",
+        "reading": 30.8747,
+        "timestamp": 1361515777,
+        "datetime": "2013-02-22 06:49:37",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "V75W68M04W0L",
+        "reading": 22.6876,
+        "timestamp": 1378850241,
+        "datetime": "2013-09-10 21:57:21",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "9AM71DADC410",
+        "reading": 16.4014,
+        "timestamp": 1389269203,
+        "datetime": "2014-01-09 12:06:43",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "T6TBOA57CW7T",
+        "reading": 36.7416,
+        "timestamp": 1391735466,
+        "datetime": "2014-02-07 01:11:06",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "IIU7BI8HAYMP",
+        "reading": 22.5901,
+        "timestamp": 1393638777,
+        "datetime": "2014-03-01 01:52:57",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "DSLF44JMVBQ3",
+        "reading": 19.0395,
+        "timestamp": 1396124583,
+        "datetime": "2014-03-29 20:23:03",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "HVNBANB8F719",
+        "reading": 33.9123,
+        "timestamp": 1397225508,
+        "datetime": "2014-04-11 14:11:48",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "BALZ7W45R7GH",
+        "reading": 21.9431,
+        "timestamp": 1398286576,
+        "datetime": "2014-04-23 20:56:16",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "82Z5OZ4EO9Z4",
+        "reading": 23.5342,
+        "timestamp": 1399188484,
+        "datetime": "2014-05-04 07:28:04",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "CF6SRA9GHN9J",
+        "reading": 33.6932,
+        "timestamp": 1401105091,
+        "datetime": "2014-05-26 11:51:31",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "Y0S9IN2LAA40",
+        "reading": 18.3234,
+        "timestamp": 1402283417,
+        "datetime": "2014-06-09 03:10:17",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "UIGAX2GS1SCZ",
+        "reading": 12.8372,
+        "timestamp": 1404100465,
+        "datetime": "2014-06-30 03:54:25",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "UNDAS2ODXRZ3",
+        "reading": 10.8873,
+        "timestamp": 1414841518,
+        "datetime": "2014-11-01 11:31:58",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "SFHPD3E60K0N",
+        "reading": 29.0479,
+        "timestamp": 1417135661,
+        "datetime": "2014-11-28 00:47:41",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "VB59S5KULJLJ",
+        "reading": 31.7008,
+        "timestamp": 1420573953,
+        "datetime": "2015-01-06 19:52:33",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "6X9KMDN6IUBL",
+        "reading": 26.2494,
+        "timestamp": 1420861237,
+        "datetime": "2015-01-10 03:40:37",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "CXMX59OIY2PL",
+        "reading": 38.3748,
+        "timestamp": 1434240316,
+        "datetime": "2015-06-14 00:05:16",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "PADDB4V4W843",
+        "reading": 39.1023,
+        "timestamp": 1439952756,
+        "datetime": "2015-08-19 02:52:36",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "RZDM2AW41ZTM",
+        "reading": 16.8297,
+        "timestamp": 1442201771,
+        "datetime": "2015-09-14 03:36:11",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "5GE7V6MP1WJJ",
+        "reading": 14.3267,
+        "timestamp": 1442264185,
+        "datetime": "2015-09-14 20:56:25",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "UJ2I69DLRBQ2",
+        "reading": 17.9883,
+        "timestamp": 1444741145,
+        "datetime": "2015-10-13 12:59:05",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "HCR4OZDGGYHY",
+        "reading": 38.1982,
+        "timestamp": 1446458833,
+        "datetime": "2015-11-02 10:07:13",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "E8KLHYX21B2Q",
+        "reading": 29.4714,
+        "timestamp": 1452295102,
+        "datetime": "2016-01-08 23:18:22",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "RGTCETIRJO6G",
+        "reading": 29.6941,
+        "timestamp": 1457609748,
+        "datetime": "2016-03-10 11:35:48",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "23EUL2BBT9VR",
+        "reading": 21.4963,
+        "timestamp": 1461418216,
+        "datetime": "2016-04-23 13:30:16",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "VBENWBZSFIGJ",
+        "reading": 23.6822,
+        "timestamp": 1462115278,
+        "datetime": "2016-05-01 15:07:58",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "XOMBBJDQ7NBI",
+        "reading": 15.7797,
+        "timestamp": 1464237473,
+        "datetime": "2016-05-26 04:37:53",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "OCZ5COMY7A3X",
+        "reading": 23.7845,
+        "timestamp": 1464761214,
+        "datetime": "2016-06-01 06:06:54",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "S1MW565FCELA",
+        "reading": 38.9499,
+        "timestamp": 1465650889,
+        "datetime": "2016-06-11 13:14:49",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "WAO76UNBA3O3",
+        "reading": 38.6661,
+        "timestamp": 1477429460,
+        "datetime": "2016-10-25 21:04:20",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "H0WNHPZ8P9X1",
+        "reading": 10.96,
+        "timestamp": 1479698102,
+        "datetime": "2016-11-21 03:15:02",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "S4N1N2306803",
+        "reading": 38.7298,
+        "timestamp": 1484223465,
+        "datetime": "2017-01-12 12:17:45",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "OE1IHG6N7ZXX",
+        "reading": 19.5263,
+        "timestamp": 1486792145,
+        "datetime": "2017-02-11 05:49:05",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "CWOEDCZ252MP",
+        "reading": 37.0012,
+        "timestamp": 1488225214,
+        "datetime": "2017-02-27 19:53:34",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "3HQCSBAZCLF5",
+        "reading": 27.0951,
+        "timestamp": 1491488921,
+        "datetime": "2017-04-06 14:28:41",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "MTY5EX0WGDCS",
+        "reading": 16.1389,
+        "timestamp": 1493728852,
+        "datetime": "2017-05-02 12:40:52",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "00HBPXCGLSRX",
+        "reading": 10.718,
+        "timestamp": 1502060620,
+        "datetime": "2017-08-06 23:03:40",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "IYBNE5YSBPRF",
+        "reading": 28.7635,
+        "timestamp": 1506753856,
+        "datetime": "2017-09-30 06:44:16",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "K78JB33H84QG",
+        "reading": 29.4446,
+        "timestamp": 1508838924,
+        "datetime": "2017-10-24 09:55:24",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "RDT4HJRZ6EBK",
+        "reading": 13.7175,
+        "timestamp": 1516669837,
+        "datetime": "2018-01-23 01:10:37",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "ME5YSIK980E0",
+        "reading": 36.1466,
+        "timestamp": 1529349644,
+        "datetime": "2018-06-18 19:20:44",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "ZTCSJM04TLF6",
+        "reading": 39.6434,
+        "timestamp": 1531374673,
+        "datetime": "2018-07-12 05:51:13",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "OKKXWXWIISRZ",
+        "reading": 21.1634,
+        "timestamp": 1531721907,
+        "datetime": "2018-07-16 06:18:27",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "7D1TJ2VNEC6Z",
+        "reading": 22.4548,
+        "timestamp": 1538681686,
+        "datetime": "2018-10-04 19:34:46",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "7KWMJQEWJCO6",
+        "reading": 17.5554,
+        "timestamp": 1539485838,
+        "datetime": "2018-10-14 02:57:18",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "8ADCFVP4EKFX",
+        "reading": 30.9883,
+        "timestamp": 1544356503,
+        "datetime": "2018-12-09 11:55:03",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "Y1J37ME6GI8Z",
+        "reading": 11.0435,
+        "timestamp": 1545300626,
+        "datetime": "2018-12-20 10:10:26",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "7CHRX4B364ZV",
+        "reading": 13.1367,
+        "timestamp": 1545824493,
+        "datetime": "2018-12-26 11:41:33",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "9C4DKDU0287K",
+        "reading": 34.4422,
+        "timestamp": 1547241302,
+        "datetime": "2019-01-11 21:15:02",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "3E7GGMO3EU30",
+        "reading": 36.0111,
+        "timestamp": 1551928430,
+        "datetime": "2019-03-07 03:13:50",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "3B9HXXXTXA1H",
+        "reading": 21.4463,
+        "timestamp": 1552243310,
+        "datetime": "2019-03-10 18:41:50",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "FS9LCS6LKLQ7",
+        "reading": 18.9714,
+        "timestamp": 1554294573,
+        "datetime": "2019-04-03 12:29:33",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "ZH6R5OFK3MQ8",
+        "reading": 13.5951,
+        "timestamp": 1563026918,
+        "datetime": "2019-07-13 14:08:38",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "74O0ELRO7WPD",
+        "reading": 18.7368,
+        "timestamp": 1565566267,
+        "datetime": "2019-08-11 23:31:07",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "SV0TXYOBGFED",
+        "reading": 38.5061,
+        "timestamp": 1568648078,
+        "datetime": "2019-09-16 15:34:38",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "PHU9SUF9MT2F",
+        "reading": 25.1894,
+        "timestamp": 1584988990,
+        "datetime": "2020-03-23 18:43:10",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "F8I08VWJLCBK",
+        "reading": 20.2059,
+        "timestamp": 1587876449,
+        "datetime": "2020-04-26 04:47:29",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "JAWD85JKQIVN",
+        "reading": 39.0664,
+        "timestamp": 1599439538,
+        "datetime": "2020-09-07 00:45:38",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "DPRCSB3ONGPA",
+        "reading": 36.1475,
+        "timestamp": 1601438839,
+        "datetime": "2020-09-30 04:07:19",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "MM7KA097KFNB",
+        "reading": 31.1385,
+        "timestamp": 1601443860,
+        "datetime": "2020-09-30 05:31:00",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "WLMMJVO3YH8C",
+        "reading": 16.4932,
+        "timestamp": 1601608380,
+        "datetime": "2020-10-02 03:13:00",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "O1M3D8KEYV7T",
+        "reading": 46.272,
+        "timestamp": 1606083480,
+        "datetime": "2020-11-22 22:18:00",
+        "sensorType": "temperature"
+    }
+]
