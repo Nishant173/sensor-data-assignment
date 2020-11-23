@@ -14,6 +14,8 @@ https://stackoverflow.com/questions/12070631/how-to-use-json-file-in-html-code
 https://stackoverflow.com/questions/47219147/using-react-date-range-picker-to-filter-a-react-table/49045554
 https://stackoverflow.com/questions/58412301/how-to-filter-user-data-between-2-date-range-timestamp
 https://stackoverflow.com/questions/47117106/how-to-display-text-on-both-axis-in-react-chart
+https://stackoverflow.com/questions/44582209/proptypes-in-functional-stateless-component
+https://react-table.tanstack.com/docs/api/useFilters
 
 npx create-react-app sensor-app
 npm i react
