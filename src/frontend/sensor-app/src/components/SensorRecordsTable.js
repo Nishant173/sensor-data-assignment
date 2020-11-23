@@ -1,13 +1,13 @@
 import React, { useMemo, useState } from 'react';
 import { useTable, useSortBy, usePagination } from 'react-table';
 import { filterRecordsByDate } from './utils';
-import SensorRecords from '../data/sensorRecordsSnapshot.json';
+import sensorRecords from '../data/sensorRecordsSnapshot.json';
 import { COLUMNS } from './columns';
 import './table.css';
 
 export function SensorRecordsTable({ startDateString='', endDateString='' }) {
-    const SensorRecordsToShow = filterRecordsByDate(SensorRecords, startDateString, endDateString);
-    const data = useMemo(() => SensorRecordsToShow, []);
+    const sensorRecordsToShow = filterRecordsByDate(sensorRecords, startDateString, endDateString);
+    const data = useMemo(() => sensorRecordsToShow, []);
     const columns = useMemo(() => COLUMNS, []);
     const tableInstance = useTable({
         columns: columns,
@@ -72,7 +72,7 @@ export function SensorRecordsTable({ startDateString='', endDateString='' }) {
                 </span>
 
                 <span>
-                    | Number of records: <strong>{ SensorRecordsToShow.length }</strong> {' '}
+                    | Number of records: <strong>{ sensorRecordsToShow.length }</strong> {' '}
                 </span>
 
                 <span>

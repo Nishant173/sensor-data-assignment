@@ -1,16 +1,16 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
 import { filterRecordsByDate, getDatetimesArray, getReadingsArray } from './utils';
-import SensorRecords from '../data/sensorRecordsSnapshot.json';
+import sensorRecords from '../data/sensorRecordsSnapshot.json';
 
-export function LineChart({ startDateString='', endDateString='' }) {
-    const SensorRecordsToShow = filterRecordsByDate(SensorRecords, startDateString, endDateString);
+export function SensorLineChart({ startDateString='', endDateString='' }) {
+    const sensorRecordsToShow = filterRecordsByDate(sensorRecords, startDateString, endDateString);
     const data = {
-        labels: getDatetimesArray(SensorRecordsToShow),
+        labels: getDatetimesArray(sensorRecordsToShow),
         datasets: [
             {
                 label: 'Temperature readings over time',
-                data: getReadingsArray(SensorRecordsToShow),
+                data: getReadingsArray(sensorRecordsToShow),
                 borderColor: '#238DD8',
                 fill: true,
             }

@@ -1,6 +1,6 @@
 import './App.css';
 import { SensorRecordsTable } from './components/SensorRecordsTable';
-import { LineChart } from './components/LineChart';
+import { SensorLineChart } from './components/SensorLineChart';
 // import { DateRangeForm } from './components/DateRangeForm';
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
                           endDateString={endDateString}
       />
       <br /><br />
-      <LineChart startDateString={startDateString}
-                 endDateString={endDateString}
+      <SensorLineChart startDateString={startDateString}
+                       endDateString={endDateString}
       />
       <br /><br />
     </div>
