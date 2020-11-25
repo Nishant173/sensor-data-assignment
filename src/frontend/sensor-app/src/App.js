@@ -1,10 +1,10 @@
 import './App.css';
-import { SensorRecordsByDate } from './components/SensorRecordsByDate';
+import { SensorDataByDate } from './components/SensorDataByDate';
 
 function App() {
   return (
     <div className="App">
-      <SensorRecordsByDate />
+      <SensorDataByDate />
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from 'react';
-import { SensorRecordsTable } from './SensorRecordsTable';
-import { SensorLineChart } from './SensorLineChart';
+import { SensorDataTable } from './SensorDataTable';
+import { SensorDataLineChart } from './SensorDataLineChart';
 
-export class SensorRecordsByDate extends React.Component {
+export class SensorDataByDate extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -41,12 +41,12 @@ export class SensorRecordsByDate extends React.Component {
                 </form>
 
                 <br /><br />
-                <SensorLineChart startDateString={this.state.startDateString}
-                                 endDateString={this.state.endDateString}
+                <SensorDataLineChart startDateString={this.state.startDateString}
+                                     endDateString={this.state.endDateString}
                 />
                 <br /><br />
-                <SensorRecordsTable startDateString={this.state.startDateString}
-                                    endDateString={this.state.endDateString}
+                <SensorDataTable startDateString={this.state.startDateString}
+                                 endDateString={this.state.endDateString}
                 />
                 <br /><br />
             </>
