@@ -3,7 +3,7 @@ import { Line } from 'react-chartjs-2';
 import { filterRecordsByDate, getDatetimesArray, getReadingsArray } from './utils';
 import sensorRecords from '../data/sensorRecordsSnapshot.json';
 
-export function SensorLineChart({ startDateString='', endDateString='' }) {
+export function SensorDataLineChart({ startDateString='', endDateString='' }) {
     const sensorRecordsToShow = filterRecordsByDate(sensorRecords, startDateString, endDateString);
     const data = {
         labels: getDatetimesArray(sensorRecordsToShow),

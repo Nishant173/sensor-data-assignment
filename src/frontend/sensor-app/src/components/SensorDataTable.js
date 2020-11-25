@@ -5,7 +5,7 @@ import sensorRecords from '../data/sensorRecordsSnapshot.json';
 import { COLUMNS } from './columns';
 import './table.css';
 
-export function SensorRecordsTable({ startDateString='', endDateString='' }) {
+export function SensorDataTable({ startDateString='', endDateString='' }) {
     const sensorRecordsToShow = filterRecordsByDate(sensorRecords, startDateString, endDateString);
     const data = useMemo(() => sensorRecordsToShow, []);
     const columns = useMemo(() => COLUMNS, []);

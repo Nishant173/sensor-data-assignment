@@ -1,23 +1,10 @@
 import './App.css';
-import { SensorRecordsTable } from './components/SensorRecordsTable';
-import { SensorLineChart } from './components/SensorLineChart';
-// import { DateRangeForm } from './components/DateRangeForm';
+import { SensorDataByDate } from './components/SensorDataByDate';
 
 function App() {
-  const startDateString = ''; // Requires 'yyyy-mm-dd' format
-  const endDateString = '';
-  
   return (
     <div className="App">
-      <h1>Sensor Information - Table and Chart</h1>
-      <SensorRecordsTable startDateString={startDateString}
-                          endDateString={endDateString}
-      />
-      <br /><br />
-      <SensorLineChart startDateString={startDateString}
-                       endDateString={endDateString}
-      />
-      <br /><br />
+      <SensorDataByDate />
     </div>
   );
 }
