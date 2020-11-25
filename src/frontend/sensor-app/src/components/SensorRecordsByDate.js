@@ -1,6 +1,8 @@
 import React from 'react';
+import { SensorRecordsTable } from './SensorRecordsTable';
+import { SensorLineChart } from './SensorLineChart';
 
-export class DateRangeForm extends React.Component {
+export class SensorRecordsByDate extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -8,7 +10,6 @@ export class DateRangeForm extends React.Component {
             endDateString: '',
         };
         this.handleDateChange = this.handleDateChange.bind(this);
-        this.handleDateSubmission = this.handleDateSubmission.bind(this);
     }
 
     handleDateChange(event) {
@@ -17,20 +18,14 @@ export class DateRangeForm extends React.Component {
         });
     }
 
-    handleDateSubmission(event) {
-        // alert(`StartDate: ${this.state.startDateString} and EndDate: ${this.state.endDateString}`);
-        event.preventDefault();
-        this.setState({
-            startDateString: this.state.startDateString,
-            endDateString: this.state.endDateString,
-        });
-    }
-
     render() {
         return (
             <>
+                <h1>Sensor Information - Table and Chart</h1>
+                <br />
+
                 <h3>Enter date-range filters here (Format: yyyy-mm-dd)</h3>
-                <form className="formDateRange" onSubmit={this.handleDateSubmission}>
+                <form className="formDateRange">
                     <input type="text"
                            name="startDateString"
                            value={this.state.startDateString}
@@ -43,10 +38,17 @@ export class DateRangeForm extends React.Component {
                            onChange={this.handleDateChange}
                            placeholder="Enter end-date"
                     />
-                    <button type="submit">
-                        Submit
-                    </button>
                 </form>
+
+                <br /><br />
+                <SensorLineChart startDateString={this.state.startDateString}
+                                 endDateString={this.state.endDateString}
+                />
+                <br /><br />
+                <SensorRecordsTable startDateString={this.state.startDateString}
+                                    endDateString={this.state.endDateString}
+                />
+                <br /><br />
             </>
         );
     }
