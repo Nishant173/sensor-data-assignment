@@ -19,12 +19,14 @@ def all_sensor_records():
 
 @app.route(rule='/sensor/records/filter', methods=['GET'])
 def filter_sensor_records():
+    records = crud_ops.get_all_records_from_mongodb(collection_name=config.MONGODB_COLLECTION_SENSOR_DATA)
     sensor_type = request.args.get('sensorType', default=None)
     min_reading = request.args.get('minReading', default=None)
     max_reading = request.args.get('maxReading', default=None)
     start_date = request.args.get('startDate', default=None)
     end_date = request.args.get('endDate', default=None)
-    records = filters.filter_sensor_records(sensor_type=sensor_type,
+    records = filters.filter_sensor_records(records=records,
+                                            sensor_type=sensor_type,
                                             min_reading=float(min_reading) if min_reading else None,
                                             max_reading=float(max_reading) if max_reading else None,
                                             start_date=start_date,
