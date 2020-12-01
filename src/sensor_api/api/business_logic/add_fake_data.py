@@ -2,11 +2,7 @@ from datetime import datetime, timedelta
 import decimal
 import pandas as pd
 import random
-import config
-import crud_ops
-import db_utils
-import save_db_locally
-import utils
+from . import config, crud_ops, db_utils, save_db_locally, utils
 
 def generate_random_date(start, end):
     """Generate a random datetime between `start` and `end` (inclusive of both)"""
@@ -60,6 +56,6 @@ if __name__ == "__main__":
     # Adding fake records to the sensor collection in the MongoDB database
     crud_ops.delete_all_records_from_mongodb(collection_name=config.MONGODB_COLLECTION_SENSOR_DATA)
     add_fake_sensor_records_to_mongodb(how_many=156)
-    save_db_locally.save_collection_to_json(collection_name=config.MONGODB_COLLECTION_SENSOR_DATA,
-                                            filepath=config.FILEPATH_SENSOR_RECORDS)
+    # save_db_locally.save_collection_to_json(collection_name=config.MONGODB_COLLECTION_SENSOR_DATA,
+    #                                         filepath=config.FILEPATH_SENSOR_RECORDS)
     print("Successfully added fake records to the sensor collection in the MongoDB database!")
