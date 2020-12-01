@@ -13,17 +13,6 @@ Atria Power - Fullstack Developer coding challenge
 - Run `python flask_application.py` and explore the available endpoints on your browser.
 - To view frontend, open terminal in `src/frontend/sensor-app/src` and run `npm start`
 
-## Endpoints available
-| Endpoint | Description | Example | Type | isIdempotent |
-|--|--|--|--|--|
-| `/api` | Home page | Self explanatory | GET | True |
-| `/api/sensor/records` | Gets all sensor records | Self explanatory | GET | True |
-| `/api/sensor/records/<string:_id>` | Gets one sensor record by ID  | `/api/sensor/records/ABCD123` | GET | True |
-| `/api/sensor/records/filter?sensorType=<str>&minReading=<float>&maxReading=<float>&startDate=<str>&endDate=<str>` | Gets sensor records based on certain filters. All filter parameters are optional | `/api/sensor/records/filter?sensorType=temperature&minReading=23.4&maxReading=29.7&startDate=01-01-2010&endDate=20-11-2019` | GET | True |
-| `/api/sensor/records/stats?startDate=<dd-mm-yyyy>&endDate=<dd-mm-yyyy>` | Gets max/min/average/median stats of readings of sensor records present between certain date-range | `/api/sensor/records/stats?startDate=15-03-2014&endDate=20-11-2020` | GET | True |
-| `/api/sensor/records/add?reading=<float>&sensorType=<str>` | Adds one sensor record | `/api/sensor/records/add?reading=16.754&sensorType=temperature` | POST | False |
-| `/api/sensor/records/delete/<string:_id>` | Deletes one sensor record by ID | `/api/sensor/records/delete/ABCD123` | DELETE | True |
-
 ## API endpoints available
 |  endpoint | description | parameters | example | methods |
 |-------------- | -------------- | -------------- | -------------- | -------------- |
