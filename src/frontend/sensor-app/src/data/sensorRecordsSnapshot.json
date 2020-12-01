@@ -1,19 +1,5 @@
 [
     {
-        "_id": "W754UCAFQKXC",
-        "reading": 25.4277,
-        "timestamp": 949885015,
-        "datetime": "2000-02-07 00:56:55",
-        "sensorType": "temperature"
-    },
-    {
-        "_id": "IPKR8IF8BCVZ",
-        "reading": 30.6943,
-        "timestamp": 953287353,
-        "datetime": "2000-03-17 10:02:33",
-        "sensorType": "temperature"
-    },
-    {
         "_id": "4EBSQ3H60RHM",
         "reading": 10.5348,
         "timestamp": 960974880,
@@ -1096,6 +1082,13 @@
         "reading": 46.272,
         "timestamp": 1606083480,
         "datetime": "2020-11-22 22:18:00",
+        "sensorType": "temperature"
+    },
+    {
+        "_id": "IWEW9SN1HTF7",
+        "reading": 12.1212,
+        "timestamp": 1606824233,
+        "datetime": "2020-12-01 12:03:53",
         "sensorType": "temperature"
     }
 ]
