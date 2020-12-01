@@ -2,6 +2,10 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from .business_logic import config, crud_ops, filters, stat_calc
 
+@api_view(['GET'])
+def api_home(request):
+    return Response(data="This is the API Home page. Please visit '<www.domain.com>/api/documentation' for details")
+
 
 @api_view(['GET'])
 def documentation(request):
