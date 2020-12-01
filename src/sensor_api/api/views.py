@@ -11,21 +11,21 @@ def api_home(request):
 def documentation(request):
     endpoints = [
         {
-            'endpoint': 'sensor/records',
+            'endpoint': '/api/sensor/records',
             'description': 'Gets all sensor records',
             'parameters': [],
-            'example': 'sensor/records',
+            'example': '/api/sensor/records',
             'methods': ['GET'],
         },
         {
-            'endpoint': 'sensor/records/<str:_id>',
+            'endpoint': '/api/sensor/records/<str:_id>',
             'description': 'Gets one sensor record by ID',
             'parameters': [],
-            'example': 'sensor/records/IPKR8IF8BCVZ',
+            'example': '/api/sensor/records/IPKR8IF8BCVZ',
             'methods': ['GET'],
         },
         {
-            'endpoint': 'sensor/records/filter',
+            'endpoint': '/api/sensor/records/filter',
             'description': 'Filters sensor records (based on certain parameters)',
             'parameters': [
                 {
@@ -56,11 +56,11 @@ def documentation(request):
                     'required': False,
                 },
             ],
-            'example': 'sensor/records/filter?sensorType=temperature&minReading=10.223&maxReading=14.472&startDate=14-06-2020&endDate=31-12-2020',
+            'example': '/api/sensor/records/filter?sensorType=temperature&minReading=10.223&maxReading=14.472&startDate=14-06-2020&endDate=31-12-2020',
             'methods': ['GET'],
         },
         {
-            'endpoint': 'sensor/records/stats',
+            'endpoint': '/api/sensor/records/stats',
             'description': 'Gets sensor related statistics (based on certain parameters)',
             'parameters': [
                 {
@@ -76,11 +76,11 @@ def documentation(request):
                     'required': True,
                 },
             ],
-            'example': 'sensor/records/stats?startDate=14-06-2020&endDate=31-12-2020',
+            'example': '/api/sensor/records/stats?startDate=14-06-2020&endDate=31-12-2020',
             'methods': ['GET'],
         },
         {
-            'endpoint': 'sensor/records/add',
+            'endpoint': '/api/sensor/records/add',
             'description': 'Adds one sensor record (based on certain parameters)',
             'parameters': [
                 {
@@ -94,14 +94,14 @@ def documentation(request):
                     'required': True,
                 },
             ],
-            'example': 'sensor/records/add?reading=10.224&sensorType=temperature',
+            'example': '/api/sensor/records/add?reading=10.224&sensorType=temperature',
             'methods': ['POST'],
         },
         {
-            'endpoint': 'sensor/records/delete/<str:_id>',
+            'endpoint': '/api/sensor/records/delete/<str:_id>',
             'description': 'Deletes one sensor record by ID',
             'parameters': [],
-            'example': 'sensor/records/delete/IPKR8IF8BCVZ',
+            'example': '/api/sensor/records/delete/IPKR8IF8BCVZ',
             'methods': ['DELETE'],
         },
     ]
