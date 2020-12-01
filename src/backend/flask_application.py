@@ -7,24 +7,32 @@ import stat_calc
 
 app = Flask(__name__)
 
-@app.route(rule='/', methods=['GET'])
-def home():
-    return "<h1>This is the Home page</h1>"
+@app.route(rule='/api', methods=['GET'])
+def api_home():
+    return "<h1>This is the API Home page</h1>"
 
 
-@app.route(rule='/sensor/records', methods=['GET'])
+@app.route(rule='/api/sensor/records', methods=['GET'])
 def all_sensor_records():
-    return jsonify(crud_ops.get_all_records_from_mongodb(collection_name=config.MONGODB_COLLECTION_SENSOR_DATA))
-
-
-@app.route(rule='/sensor/records/filter', methods=['GET'])
-def filter_sensor_records():
     records = crud_ops.get_all_records_from_mongodb(collection_name=config.MONGODB_COLLECTION_SENSOR_DATA)
+    return jsonify(records), 200
+
+
+@app.route(rule='/api/sensor/records/<string:_id>', methods=['GET'])
+def get_sensor_record(_id):
+    record_id = str(_id)
+    record = crud_ops.get_sensor_record(record_id=record_id)
+    return jsonify(record), 200
+
+
+@app.route(rule='/api/sensor/records/filter', methods=['GET'])
+def filter_sensor_records():
     sensor_type = request.args.get('sensorType', default=None)
     min_reading = request.args.get('minReading', default=None)
     max_reading = request.args.get('maxReading', default=None)
     start_date = request.args.get('startDate', default=None)
     end_date = request.args.get('endDate', default=None)
+    records = crud_ops.get_all_records_from_mongodb(collection_name=config.MONGODB_COLLECTION_SENSOR_DATA)
     records = filters.filter_sensor_records(records=records,
                                             sensor_type=sensor_type,
                                             min_reading=float(min_reading) if min_reading else None,
@@ -34,7 +42,7 @@ def filter_sensor_records():
     return jsonify(records), 200
 
 
-@app.route(rule='/sensor/stats', methods=['GET'])
+@app.route(rule='/api/sensor/records/stats', methods=['GET'])
 def sensor_stats():
     start_date = str(request.args['startDate'])
     end_date = str(request.args['endDate'])
@@ -42,14 +50,7 @@ def sensor_stats():
     return jsonify(dictionary_stats), 200
 
 
-@app.route(rule='/sensor/record', methods=['GET'])
-def get_sensor_record():
-    record_id = str(request.args['_id'])
-    record = crud_ops.get_sensor_record(record_id=record_id)
-    return jsonify(record), 200
-
-
-@app.route(rule='/sensor/record/add', methods=['GET', 'POST'])
+@app.route(rule='/api/sensor/records/add', methods=['GET', 'POST'])
 def add_sensor_record():
     reading = float(request.args['reading'])
     sensor_type = request.args['sensorType']
@@ -60,9 +61,9 @@ def add_sensor_record():
     return jsonify(response), 201
 
 
-@app.route(rule='/sensor/record/delete', methods=['GET', 'DELETE'])
-def delete_sensor_record():
-    record_id = str(request.args['_id'])
+@app.route(rule='/api/sensor/records/delete/<string:_id>', methods=['GET', 'DELETE'])
+def delete_sensor_record(_id):
+    record_id = str(_id)
     crud_ops.delete_sensor_record(record_id=record_id)
     save_db_locally.save_collection_to_json(collection_name=config.MONGODB_COLLECTION_SENSOR_DATA,
                                             filepath=config.FILEPATH_SENSOR_RECORDS)
